@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JSProjekt/Openclassrooms_P4_ohmyfood/issues"
   },
-  "homepage": "https://github.com/JSProjekt/Openclassrooms_P4_ohmyfood/tree/main#readme"
+  "homepage": "https://github.com/JSProjekt/Openclassrooms_P4_ohmyfood/tree/main#readme",
+  "dependencies": {
+    "sass": "^1.76.0"
+  }
 }
