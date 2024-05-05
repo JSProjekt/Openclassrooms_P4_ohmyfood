@@ -1,0 +1,19 @@
+{
+  "name": "projet_4_openclassrooms",
+  "version": "1.0.0",
+  "description": "Mon projet Ohmyfood",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSProjekt/Openclassrooms_P4_ohmyfood.git#main"
+  },
+  "author": "Sicre Jordan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JSProjekt/Openclassrooms_P4_ohmyfood/issues"
+  },
+  "homepage": "https://github.com/JSProjekt/Openclassrooms_P4_ohmyfood/tree/main#readme"
+}
