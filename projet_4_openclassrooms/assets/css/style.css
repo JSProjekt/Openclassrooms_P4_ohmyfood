@@ -16,7 +16,6 @@ body {
 .card {
     background-color: white;
     border-radius: 20px;
-    padding: 5px;
 }
 
 .card img {
@@ -93,6 +92,7 @@ body {
 
 /* FUNCTION */
 .function {
+    counter-reset: list;
     padding-top: 25px;
     padding-left: 15px;
     padding-right: 15px;
@@ -121,7 +121,18 @@ body {
     margin-right: 20px;
 }
 
-.function li::before {}
+.function li::before {
+    content: counter(list);
+    counter-increment: list;
+    color: white;
+    background-color: #9356DC;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+
+}
 
 /* RESTAURANTS */
 
@@ -138,6 +149,27 @@ body {
 .restaurants-card {
     display: flex;
     justify-content: center;
+    gap: 20px;
+}
+
+.card-restaurant-content {
+    width: 100%;
+    padding: 0 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.card-restaurant-content h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.card-restaurant-content p {
+    font-size: 17px;
+    font-weight: 300;
+    color: #000000;
 }
 
 .restaurants-card .card {
