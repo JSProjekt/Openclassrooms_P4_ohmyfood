@@ -1,0 +1,25 @@
+/* FOOTER */
+
+.footer {
+    background-color: #353535;
+    padding: 22px 25px 22px 25px;
+    gap: 16px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5px;
+
+    & img {
+        color: white;
+        height: 27px;
+        width: auto;
+
+    }
+
+    & a {
+        font-weight: 500;
+        color: white;
+    }
+}

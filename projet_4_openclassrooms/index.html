@@ -14,18 +14,16 @@
 
     <!-- HEADER -->
     <header class="header">
-        <h1>ohmyfood</h1>
-    </header>
-
-    <!-- MAIN -->
-    <main>
-
+        <img src="./assets/images/logo/ohmyfood@2x.svg">
         <!-- CITY -->
         <form class="city">
             <i class="fa-sharp fa-solid fa-location-dot"></i>
             <input type="text" name="city" id="" placeholder="Paris, Belleville">
         </form>
+    </header>
 
+    <!-- MAIN -->
+    <main>
         <!-- EXPLORE -->
         <section class="explore">
             <h2>Réservez le menu qui vous convient</h2>
@@ -40,27 +38,33 @@
         <!-- FUNCTION -->
         <section class="function">
             <h2>Fonctionnement</h2>
-            <ol>
+            <menu>
                 <li>
-                    <i class="fa-solid fa-mobile-screen-button fa-fw fa-lg"></i>
-                    Choisissez un restaurant
+                    <button>
+                        <i class="fa-solid fa-mobile-screen-button fa-fw fa-lg"></i>
+                        Choisissez un restaurant
+                    </button>
                 </li>
                 <li>
-                    <i class="fa-solid fa-list-ul fa-fw fa-lg"></i>
-                    Composez votre menu
+                    <button>
+                        <i class="fa-solid fa-list-ul fa-fw fa-lg"></i>
+                        Composez votre menu
+                    </button>
                 </li>
                 <li>
-                    <i class="fa-solid fa-store fa-fw fa-lg"></i>
-                    Dégustez au restaurant
+                    <button>
+                        <i class="fa-solid fa-store fa-fw fa-lg"></i>
+                        Dégustez au restaurant
+                    </button>
                 </li>
-            </ol>
+            </menu>
         </section>
 
         <!-- RESTAURANTS -->
-        <section class="restaurants" id="restaurants">
+        <section class="restaurants" id="#restaurants">
             <h2>Restaurants</h2>
             <div class="restaurants-card">
-                <a href="">
+                <a href="./restaurant1.html" class="new">
                     <article class="card">
                         <img src="./assets/images/restaurants/la_palette_du_gout.jpg"
                             alt="Photo plat du restaurant La palette du goût">
@@ -69,11 +73,14 @@
                             <p class="card-restaurant-subtitle">Ménilmontant</p>
                         </div>
                         <div class="heart-icon">
-                            <i class="fa-heart fas"></i>
+                            <button>
+                                <i class="fa-light fa-heart fas"></i>
+                                <i class="fa-solid fa-heart fas"></i>
+                            </button>
                         </div>
                     </article>
                 </a>
-                <a href="">
+                <a href="" class="new">
                     <article class="card">
                         <img src="./assets/images/restaurants/la_note_enchantee.jpg"
                             alt="Photo plat du restaurant La note enchantée">
@@ -82,8 +89,12 @@
                             <p class="card-restaurant-subtitle">Charonne</p>
                         </div>
                         <div class="heart-icon">
-                            <i class="fa-heart fas"></i>
+                            <button>
+                                <i class="fa-light fa-heart fas"></i>
+                                <i class="fa-solid fa-heart fas"></i>
+                            </button>
                         </div>
+                    </article>
                     </article>
                 </a>
                 <a href="">
@@ -95,8 +106,12 @@
                             <p class="card-restaurant-subtitle">Cité Rouge</p>
                         </div>
                         <div class="heart-icon">
-                            <i class="fa-heart fas"></i>
+                            <button>
+                                <i class="fa-light fa-heart fas"></i>
+                                <i class="fa-solid fa-heart fas"></i>
+                            </button>
                         </div>
+                    </article>
                     </article>
                 </a>
                 <a href="">
@@ -108,8 +123,12 @@
                             <p class="card-restaurant-subtitle">Folie-Méricourt</p>
                         </div>
                         <div class="heart-icon">
-                            <i class="fa-heart fas"></i>
+                            <button>
+                                <i class="fa-light fa-heart fas"></i>
+                                <i class="fa-solid fa-heart fas"></i>
+                            </button>
                         </div>
+                    </article>
                     </article>
                 </a>
             </div>
@@ -119,7 +138,7 @@
     <!-- FOOTER -->
     <footer class="footer">
         <nav class="footer-nav">
-            <h4>ohmyfood</h4>
+            <img src="./assets/images/logo/ohmyfood.png">
             <a href="#">
                 <i class="fa-solid fa-utensils fa-fw fa-xs"></i>
                 Proposer un restaurant

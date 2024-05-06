@@ -1,0 +1,91 @@
+/* RESTAURANTS */
+
+.restaurants {
+    background-color: #f6f6f6;
+    gap: 18px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
+.restaurants-card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    & img {
+        width: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        height: 100%;
+    }
+
+    & a {
+        width: calc(50% - 20px);
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        gap: 4px;
+    }
+
+    .new {
+        position: relative;
+
+    }
+
+    .new::before {
+        content: "Nouveau";
+        position: absolute;
+        height: 29px;
+        width: 80px;
+        border-radius: 2px;
+        background-color: #99E2D0;
+        color: #008766;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 13px;
+
+    }
+}
+
+.card-restaurant-content {
+    width: 100%;
+    padding: 0 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: relative;
+
+    & h3 {
+        font-size: 18px;
+        font-weight: 700;
+        color: #000000;
+        margin: 0;
+    }
+
+    & p {
+        font-size: 17px;
+        font-weight: 300;
+        color: #000000;
+        margin: 0;
+    }
+}
+
+.heart-icon {
+    display: flex;
+    justify-content: end;
+    position: relative;
+
+    & button {
+        position: absolute;
+        top: -40px;
+        padding-right: 20px;
+    }
+}

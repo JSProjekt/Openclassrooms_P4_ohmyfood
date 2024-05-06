@@ -1,0 +1,19 @@
+@media (max-width: 1024px) {
+
+    .function ol {
+        flex-direction: column;
+    }
+
+    .restaurants-card {
+        flex-direction: column;
+
+        & a {
+            width: 100%;
+        }
+    }
+
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
