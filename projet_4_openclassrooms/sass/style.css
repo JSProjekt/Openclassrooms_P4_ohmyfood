@@ -29,11 +29,12 @@ a {
 .header {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .header img {
   display: flex;
   align-items: center;
-  padding-top: 14px;
+  padding: 14px;
   max-width: 200px;
   height: auto;
 }
@@ -42,6 +43,7 @@ a {
   text-align: center;
   padding: 8px;
   height: 50px;
+  width: 100%;
 }
 .header .city i {
   width: 12px;
@@ -69,6 +71,7 @@ a {
   padding-left: 25px;
   padding-right: 25px;
   font-weight: 700;
+  margin: 0;
 }
 .explore p {
   font-size: 18px;
@@ -92,6 +95,7 @@ a {
   padding-top: 25px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 25px;
 }
 .function menu {
   width: 100%;
@@ -158,6 +162,7 @@ a {
 }
 .restaurants-card a {
   width: calc(50% - 20px);
+  padding: 10px;
 }
 .restaurants-card .card {
   display: flex;
@@ -225,11 +230,16 @@ a {
   display: flex;
   flex-direction: row-reverse;
   gap: 5px;
+  align-items: center;
 }
-.footer-nav img {
+.footer-nav h4 {
   color: white;
   height: 27px;
   width: auto;
+  font-family: "Shrikhand";
+  font-family: 400;
+  font-size: 18px;
+  padding: 30px, 25px, 30px, 25px;
 }
 .footer-nav a {
   font-weight: 500;
@@ -249,6 +259,7 @@ a {
   .footer-nav {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
   }
 }
 .header-image img {

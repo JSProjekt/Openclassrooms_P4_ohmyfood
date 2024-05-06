@@ -10,12 +10,16 @@
     display: flex;
     flex-direction: row-reverse;
     gap: 5px;
+    align-items: center;
 
-    & img {
+    & h4 {
         color: white;
         height: 27px;
         width: auto;
-
+        font-family: "Shrikhand";
+        font-family: 400;
+        font-size: 18px;
+        padding: 30px, 25px, 30px, 25px
     }
 
     & a {
