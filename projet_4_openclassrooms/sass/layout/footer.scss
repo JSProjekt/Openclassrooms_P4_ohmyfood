@@ -2,28 +2,34 @@
 
 .footer {
     background-color: #353535;
-    padding: 22px 25px 22px 25px;
-    gap: 16px;
-}
+    padding: 1.375em 1.563em 1em;
+
 
 .footer-nav {
     display: flex;
-    flex-direction: row-reverse;
-    gap: 5px;
-    align-items: center;
+    flex-direction: column;
+    
 
     & h4 {
         color: white;
         height: 27px;
         width: auto;
+        font-weight: 400;
         font-family: "Shrikhand";
-        font-family: 400;
-        font-size: 18px;
-        padding: 30px, 25px, 30px, 25px
-    }
+        font-size: 1.125em;
+        margin: 0;
+        padding: 0 0 2em;
 
+    }
+    
     & a {
+        font-size: 1em;
         font-weight: 500;
         color: white;
+        padding: 0 0 0.5em;
+        & i {
+            margin-right: 0.5em
+        }
     }
+}
 }

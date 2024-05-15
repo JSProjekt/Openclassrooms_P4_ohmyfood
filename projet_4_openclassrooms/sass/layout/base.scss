@@ -19,10 +19,25 @@ body {
     height: 251px;
 }
 
-.card img {
-    object-fit: cover;
+.fa-heart {
+    font-weight: 500;
 }
+
 
 a {
     text-decoration: none;
 }
+
+h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.section {
+    width: 100%;
+    padding: 50px 0;
+  }

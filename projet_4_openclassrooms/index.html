@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="">
     <script src="https://kit.fontawesome.com/50bd61e104.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./sass/style.css">
@@ -11,6 +15,7 @@
 </head>
 
 <body>
+
 
     <!-- HEADER -->
     <header class="header">
@@ -30,14 +35,18 @@
             <p>
                 Découvrez des restaurants d'exception, sélectionnés par nos soins.
             </p>
-            <button href="restaurants">
-                Explorer nos restaurants
-            </button>
+            <a href="#restaurants">
+                <button>
+                    Explorer nos restaurants
+                </button>
+            </a>
         </section>
 
         <!-- FUNCTION -->
         <section class="function">
-            <h2>Fonctionnement</h2>
+            <div class="function-tittle">
+                <h2>Fonctionnement</h2>
+            </div>
             <menu>
                 <li>
                     <button>
@@ -61,8 +70,10 @@
         </section>
 
         <!-- RESTAURANTS -->
-        <section class="restaurants" id="#restaurants">
-            <h2>Restaurants</h2>
+        <section class="restaurants" id="restaurants">
+            <div class="restaurants-tittle">
+                <h2>Restaurants</h2>
+            </div>
             <div class="restaurants-card">
                 <a href="./restaurant1.html" class="new">
                     <article class="card">
@@ -80,13 +91,13 @@
                         </div>
                     </article>
                 </a>
-                <a href="" class="new">
+                <a href="./restaurant2.html" class="new">
                     <article class="card">
                         <img src="./assets/images/restaurants/la_note_enchantee.jpg"
                             alt="Photo plat du restaurant La note enchantée">
                         <div class="card-restaurant-content">
-                            <h3 class="card-restaurant-title">La note enchantée</h3>
-                            <p class="card-restaurant-subtitle">Charonne</p>
+                            <h3>La note enchantée</h3>
+                            <p>Charonne</p>
                         </div>
                         <div class="heart-icon">
                             <button>
@@ -97,7 +108,7 @@
                     </article>
                     </article>
                 </a>
-                <a href="">
+                <a href="./restaurant3.html">
                     <article class="card">
                         <img src="./assets/images/restaurants/a_la_la_francaise.jpg"
                             alt="Photo plat du restaurant À la française">
@@ -108,13 +119,13 @@
                         <div class="heart-icon">
                             <button>
                                 <i class="fa-light fa-heart fas"></i>
-                                <i class="fa-solid fa-heart fas"></i>
+                                <i class="fa-solid fa-heart fas" style="opacity: 0;"></i>
                             </button>
                         </div>
                     </article>
                     </article>
                 </a>
-                <a href="">
+                <a href="./restaurant4.html">
                     <article class="card">
                         <img src="./assets/images/restaurants/le_delice_des_sens.jpg"
                             alt="Photo plat du restaurant Le délice des sens">
@@ -139,20 +150,27 @@
     <footer class="footer">
         <nav class="footer-nav">
             <h4>ohmyfood</h4>
-            <a href="#">
-                <i class="fa-solid fa-utensils fa-fw fa-xs"></i>
-                Proposer un restaurant
-            </a>
-            <a class="footer-link" href="#">
-                <i class="fa-solid fa-handshake-angle fa-fw fa-xs"></i>
-                Devenir partenaire
-            </a>
-            <a class="footer-link" href="#">Mentions légales</a>
-            <a class="footer-link" href="#">
-                Contact
-            </a>
+            <div class="nav-desktop">
+                <a href="#">
+                    <i class="fa-solid fa-utensils fa-fw fa-xs"></i>
+                    Proposer un restaurant
+                </a>
+                <a class="footer-link" href="#">
+                    <i class="fa-solid fa-handshake-angle fa-fw fa-xs"></i>
+                    Devenir partenaire
+                </a>
+                <a class="footer-link" href="#">Mentions légales</a>
+                <a class="footer-link" href="#">
+                    Contact
+                </a>
+            </div>
         </nav>
     </footer>
+
+    <!--LOADING-->
+    <div class="loader-screen">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
 </body>
 
 </html>
