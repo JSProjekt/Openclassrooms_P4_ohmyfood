@@ -1,12 +1,12 @@
-@import "./layout/base.scss";
+@import "./Base/base.scss";
 @import "./layout/header.scss";
 @import "./layout/explore.scss";
 @import "./layout/function.scss";
 @import "./layout/restaurants.scss";
 @import "./layout/footer.scss";
-@import "./layout/responsive.scss";
+@import "./utilities/responsive.scss";
 @import "./pages/page-restaurants.scss";
-@import "./layout/animation.scss"
+@import "./utilities/animation.scss"
 
 
 

@@ -57,9 +57,11 @@
   75% {
     opacity: 1;
   }
-  99%{
+
+  99% {
     z-index: 10;
   }
+
   100% {
     opacity: 0;
   }
@@ -116,5 +118,29 @@
   100% {
     opacity: 0;
     height: 0%;
+  }
+}
+
+
+@keyframes menu-pages {
+  0% {
+    opacity: 0;
+    transform: scaleX(1) scaleY(0.5);
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  50% {
+    transform: scaleX(1) scaleY(1.08);
+  }
+
+  90% {
+    transform: scaleX(1) scaleY(1);
+  }
+
+  100% {
+    opacity: 1;
   }
 }
