@@ -1,6 +1,6 @@
 
 .header-logoarrow {
-    z-index: 800;
+    z-index: 1;
     position: relative;
     display: flex;
     width: 100%;
@@ -15,6 +15,7 @@
         position: absolute;
         left: 1.25em;
         color: black;
+        z-index: 2;
     }
 
 }
@@ -49,6 +50,7 @@
         .heart-tittle {
             display: flex;
             flex-direction: row;
+            justify-content: space-between;
     
             & h2 {
                 font-weight: 400;
@@ -66,7 +68,7 @@
                 position: relative;
                 background-color: transparent;
                 border: none;
-                padding-left: 3em;
+                
     
                 i {
                     font-size: 1.375em;
