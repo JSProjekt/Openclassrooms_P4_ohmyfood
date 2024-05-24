@@ -40,6 +40,15 @@ button {
   padding: 50px 0;
 }
 
+.wrapper {
+  max-width: 1050px;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
 /* Header */
 .header {
   display: flex;
@@ -116,7 +125,7 @@ button {
 /* FUNCTION */
 .function {
   counter-reset: list;
-  padding: 3em 1.5em 3em;
+  padding: 3em;
 }
 .functionh2 {
   font-weight: 700;
@@ -251,7 +260,7 @@ button {
   border: none;
 }
 .restaurants .restaurants-card .card .heart-icon i {
-  font-size: 1.375em;
+  font-size: 1.7em;
 }
 .restaurants .restaurants-card .card .heart-icon .fa-solid {
   display: none;
@@ -265,9 +274,6 @@ button {
   display: block;
   transform: scale(1.2);
 }
-.restaurants .restaurants-card .card .heart-icon:hover .fas {
-  transition: all 0.3s ease-in-out;
-}
 
 /* FOOTER */
 .footer {
@@ -277,6 +283,7 @@ button {
 .footer .footer-nav {
   display: flex;
   flex-direction: column;
+  gap: 1.5em;
 }
 .footer .footer-nav .nav-desktop {
   display: flex;
@@ -284,13 +291,11 @@ button {
 }
 .footer .footer-nav img {
   width: 130px;
-  padding: 0 0 2em;
 }
 .footer .footer-nav a {
   font-size: 1em;
   font-weight: 500;
   color: white;
-  padding: 0 0 0.5em;
 }
 .footer .footer-nav a i {
   margin-right: 0.5em;
@@ -313,7 +318,7 @@ button {
     box-shadow: none;
   }
   .function .function-tittle {
-    padding: 0 12em;
+    padding: 0 2.5em;
   }
   .function menu {
     flex-direction: row;
@@ -321,7 +326,7 @@ button {
     gap: 2em;
   }
   .restaurants {
-    padding: 3em 11em;
+    padding: 3em;
   }
   .restaurants .restaurants-tittle {
     padding: 0 2.5em;
@@ -336,12 +341,15 @@ button {
     width: calc(50% - 5em);
   }
   .footer {
-    padding: 3em 3em 1em;
+    padding: 3em 3em 2em;
+    display: flex;
+    justify-content: end;
   }
   .footer .footer-nav {
     display: flex;
     flex-direction: row-reverse;
     gap: 5em;
+    align-items: end;
   }
   .footer .footer-nav h4 {
     margin: 0;
@@ -433,7 +441,7 @@ button {
   border: none;
 }
 .menu .menu-page .heart-tittle .heart-icon i {
-  font-size: 1.375em;
+  font-size: 1.7em;
 }
 .menu .menu-page .heart-tittle .heart-icon .fa-solid {
   display: none;
@@ -519,6 +527,7 @@ button {
 .page-card .card-page:hover .price {
   transform: translateX(0);
   transition: all 0.8s;
+  margin-left: 5em;
 }
 .page-card .card-page .card-page-content {
   display: flex;

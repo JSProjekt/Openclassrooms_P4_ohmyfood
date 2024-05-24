@@ -7,6 +7,8 @@
     .footer-nav {
         display: flex;
         flex-direction: column;
+        gap: 1.5em;
+        
         .nav-desktop {
             display: flex;
             flex-direction: column;
@@ -15,7 +17,7 @@
         & img {
             
             width: 130px;
-            padding: 0 0 2em;
+            
 
         }
 
@@ -23,7 +25,6 @@
             font-size: 1em;
             font-weight: 500;
             color: white;
-            padding: 0 0 0.5em;
 
             & i {
                 margin-right: 0.5em

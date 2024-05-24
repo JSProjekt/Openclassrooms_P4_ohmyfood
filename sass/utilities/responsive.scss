@@ -24,7 +24,7 @@
     .function {
 
         .function-tittle {
-            padding: 0 12em;
+            padding: 0 2.5em;
 
         }
     }
@@ -36,7 +36,8 @@
     }
 
     .restaurants {
-        padding: 3em 11em;
+        padding: 3em;
+    
 
         .restaurants-tittle {
             padding: 0 2.5em;
@@ -56,12 +57,16 @@
     }
 
     .footer {
-        padding: 3em 3em 1em;
+        padding: 3em 3em 2em;
+        display: flex; 
+        justify-content: end;
+        
 
         .footer-nav {
             display: flex;
             flex-direction: row-reverse;
             gap: 5em;
+            align-items: end;
 
             h4 {
                 margin: 0;
