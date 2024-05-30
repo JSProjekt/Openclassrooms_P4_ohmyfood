@@ -538,7 +538,7 @@ button {
   overflow: hidden;
   text-align: left;
 }
-.page-card .card-page .card-page-content h4 {
+.page-card .card-page .card-page-content .card-tittle {
   font-weight: 500;
   font-size: 18px;
   white-space: nowrap;
@@ -547,7 +547,7 @@ button {
   max-width: calc(100% - 59px);
   margin: 0;
 }
-.page-card .card-page .card-page-content p {
+.page-card .card-page .card-page-content .card-text {
   font-weight: 300;
   font-size: 15px;
   min-width: 90%;
@@ -566,7 +566,7 @@ button {
   transform: translateX(69px);
   transition: all 0.8s;
 }
-.page-card .card-page .price h4 {
+.page-card .card-page .price .card-price {
   padding-top: 1em;
 }
 .page-card .card-page .price .card-check {

@@ -188,7 +188,7 @@
             overflow: hidden;
             text-align: left;
 
-            & h4 {
+            & .card-tittle {
                 font-weight: 500;
                 font-size: 18px;
                 white-space: nowrap;
@@ -199,7 +199,7 @@
 
             }
 
-            & p {
+            & .card-text {
                 font-weight: 300;
                 font-size: 15px;
                 min-width: 90%;
@@ -221,7 +221,7 @@
             transform: translateX(69px);
             transition: all 0.8s;
 
-            h4 {
+            .card-price {
                 padding-top: 1em;
             }
 
