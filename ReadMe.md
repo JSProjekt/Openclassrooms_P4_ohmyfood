@@ -1,6 +1,6 @@
 # Ohmyfood
 
-![alt text](https://github.com/JSProjekt/Openclassrooms_P4_ohmyfood/blob/main/projet_4_openclassrooms/16559016787093_Untitled%20design.png)
+![alt text](https://github.com/JSProjekt/Openclassrooms_P4_ohmyfood/blob/main/16559016787093_Untitled%20design.png)
 
 Le projet 4 de la formation Intégrateur Web d'OpenClassrooms.
 Ce dépôt contient le code du site mobile OhMyFood.
