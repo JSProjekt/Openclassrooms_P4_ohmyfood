@@ -128,14 +128,14 @@
     gap: 10px;
     transform-origin: top left;
     animation-fill-mode: forwards;
-
-    menu {
+    
+    ul {
         list-style: none;
         padding: 0 0 2em;
         margin: 0;
         display: flex;
         flex-direction: column;
-        gap: 0.5em;
+        gap: 0.6em;
 
     }
 
@@ -171,25 +171,25 @@
 
         .card-page-content {
             display: flex;
-            padding: 1em 1em;
+            padding: 0.8em 0.8em;
             width: 100%;
             flex-direction: column;
             white-space: nowrap;
             overflow: hidden;
             text-align: left;
+            gap: 0.3em;
 
-            & .card-tittle {
+            &h4 {
                 font-weight: 500;
                 font-size: 18px;
                 white-space: nowrap;
                 overflow: hidden;
                 text-overflow: ellipsis;
                 max-width: calc(100% - 59px);
-                margin: 0;
 
             }
 
-            & .card-text {
+            &p {
                 font-weight: 300;
                 font-size: 15px;
                 min-width: 90%;
@@ -197,7 +197,6 @@
                 overflow: hidden;
                 text-overflow: ellipsis;
                 max-width: calc(100% - 59px);
-                margin: 0;
 
             }
         }

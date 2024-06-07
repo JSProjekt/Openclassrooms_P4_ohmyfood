@@ -27,7 +27,9 @@ a {
 }
 
 h2,
-h3 {
+h3,
+h4,
+p {
   margin: 0;
   padding: 0;
 }
@@ -495,13 +497,13 @@ button {
   transform-origin: top left;
   animation-fill-mode: forwards;
 }
-.page-card menu {
+.page-card ul {
   list-style: none;
   padding: 0 0 2em;
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 0.5em;
+  gap: 0.6em;
 }
 .page-card h3 {
   font-weight: 300;
@@ -530,23 +532,23 @@ button {
 }
 .page-card .card-page .card-page-content {
   display: flex;
-  padding: 1em 1em;
+  padding: 0.8em 0.8em;
   width: 100%;
   flex-direction: column;
   white-space: nowrap;
   overflow: hidden;
   text-align: left;
+  gap: 0.3em;
 }
-.page-card .card-page .card-page-content .card-tittle {
+.page-card .card-page .card-page-contenth4 {
   font-weight: 500;
   font-size: 18px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: calc(100% - 59px);
-  margin: 0;
 }
-.page-card .card-page .card-page-content .card-text {
+.page-card .card-page .card-page-contentp {
   font-weight: 300;
   font-size: 15px;
   min-width: 90%;
@@ -554,7 +556,6 @@ button {
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: calc(100% - 59px);
-  margin: 0;
 }
 .page-card .card-page .price {
   display: flex;
